@@ -1,0 +1,5 @@
+file = open("sample.txt", "r")
+print("Reading file contents:")
+content = file.read()
+print(content)
+file.close()
